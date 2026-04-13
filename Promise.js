@@ -1,6 +1,6 @@
 const pizza= new Promise((resolve,reject)=>{
     setTimeout(()=>{
-        const isPizzaReady=false;
+        const isPizzaReady=true;
         if(isPizzaReady){
             resolve("Pizza is ready");
         }else{
